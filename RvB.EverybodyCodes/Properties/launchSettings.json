@@ -1,10 +1,10 @@
 {
   "profiles": {
-    "RvB.EverybodyCodes": {
+    "Latest": {
       "commandName": "Project",
       "commandLineArgs": "-l"
     },
-    "RvB.All": {
+    "All-Verify": {
       "commandName": "Project",
       "commandLineArgs": "-w"
     }
