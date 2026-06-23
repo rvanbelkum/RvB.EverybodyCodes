@@ -5,6 +5,7 @@
     <Project Path="../RvB.Common/RvB.Linq/RvB.Linq.csproj" />
     <Project Path="../RvB.Common/RvB.Utils/RvB.Utils.csproj" />
   </Folder>
+  <Project Path="../RvB.AoC.Assets/RvB.AoC.Assets.csproj" />
   <Project Path="RvB.EC.Shared/RvB.EC.Shared.csproj" />
   <Project Path="RvB.EC2024/RvB.EC2024.csproj" />
   <Project Path="RvB.EverybodyCodes/RvB.EverybodyCodes.csproj" />
