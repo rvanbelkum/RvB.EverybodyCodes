@@ -48,25 +48,24 @@ public class Quest02 : Quest {
         var words = s1.AsStringRange()[6..].Split(',').ToArray();
         words = words.Concat(words.Select(w => w.Reverse())).ToArray();
 
-        var rows = s2.GetLines().Select(l => l.ToString()).ToArray();
-        var cols = Enumerable.Range(0, rows[0].Length).Select(i => string.Join("", rows.Select(t => t[i]))).ToArray();
-
         var symbols = new HashSet<(int, int)>();
-        var used = new bool[rows.Length, rows[0].Length];
 
+        var rows = s2.GetLines().ToArray();
         for (var r = 0; r < rows.Length; r += 1) {
             foreach (var col in Count(rows[r], true)) {
                 symbols.Add((col, r));
             }
         }
-        for (var c = 0; c < cols.Length; c += 1) {
-            foreach (var row in Count(cols[c], false)) {
+        var colCount = rows[0].Length;
+        for (var c = 0; c < colCount; c += 1) {
+            var col = string.Join("", rows.Select(t => t[c]));
+            foreach (var row in Count(col, false)) {
                 symbols.Add((c, row));
             }
         }
         return symbols.Count;
 
-        IEnumerable<int> Count(string text, bool wrap) {
+        IEnumerable<int> Count(StringRange text, bool wrap) {
             foreach (var word in words) {
                 var idx = text.IndexOf(word[0]);
                 while (idx != -1 && (wrap || idx + word.Length <= text.Length)) {
