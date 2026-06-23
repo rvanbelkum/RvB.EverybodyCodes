@@ -6,7 +6,7 @@
     },
     "All-Verify": {
       "commandName": "Project",
-      "commandLineArgs": "-w"
+      "commandLineArgs": "-w -b 3"
     }
   }
 }
