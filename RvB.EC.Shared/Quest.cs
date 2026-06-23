@@ -26,6 +26,7 @@ public abstract class Quest {
         object? result = null;
         var timing = Benchmark.BenchmarkTime(() => result = part(input), benchmark, Benchmark.Measure.Min);
         if (result is null) {
+            WriteLine("\tNo result\r\n", ConsoleColor.Magenta);
             return (null, null);
         }
         if (!microSeconds) {
