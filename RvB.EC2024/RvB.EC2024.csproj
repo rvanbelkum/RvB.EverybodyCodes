@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\RvB.AoC.Assets\EC2024\*.*">
+			<Link>Assets\%(FileName)%(Extension)</Link>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\RvB.Common\RvB.Collections\RvB.Collections.csproj" />
+		<ProjectReference Include="..\..\RvB.Common\RvB.Graphs\RvB.Graphs.csproj" />
+		<ProjectReference Include="..\..\RvB.Common\RvB.Grids\RvB.Grids.csproj" />
+		<ProjectReference Include="..\..\RvB.Common\RvB.Numerics\RvB.Numerics.csproj" />
+		<ProjectReference Include="..\..\RvB.Common\RvB.Linq\RvB.Linq.csproj" />
+		<ProjectReference Include="..\RvB.EC.Shared\RvB.EC.Shared.csproj" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "RvB.EverybodyCodes": {
+      "commandName": "Project",
+      "commandLineArgs": "-l"
+    },
+    "RvB.All": {
+      "commandName": "Project",
+      "commandLineArgs": "-w"
+    }
+  }
+}

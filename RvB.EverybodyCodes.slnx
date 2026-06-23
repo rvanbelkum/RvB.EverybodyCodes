@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Common/">
+    <Project Path="../RvB.Common/RvB.CommandLine/RvB.CommandLine.csproj" />
+    <Project Path="../RvB.Common/RvB.Grids/RvB.Grids.csproj" />
+    <Project Path="../RvB.Common/RvB.Linq/RvB.Linq.csproj" />
+    <Project Path="../RvB.Common/RvB.Utils/RvB.Utils.csproj" />
+  </Folder>
+  <Project Path="RvB.EC.Shared/RvB.EC.Shared.csproj" />
+  <Project Path="RvB.EC2024/RvB.EC2024.csproj" />
+  <Project Path="RvB.EverybodyCodes/RvB.EverybodyCodes.csproj" />
+</Solution>
