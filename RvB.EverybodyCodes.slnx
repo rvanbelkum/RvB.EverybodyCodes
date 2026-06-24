@@ -7,6 +7,7 @@
     <Project Path="../RvB.Linq/RvB.Linq.csproj" />
     <Project Path="../RvB.Common/RvB.Spans/RvB.Spans.csproj" />
     <Project Path="../RvB.Common/RvB.Utils/RvB.Utils.csproj" />
+    <Project Path="../RvB.Trees/RvB.Trees.csproj" />
   </Folder>
   <Project Path="../RvB.AoC.Assets/RvB.AoC.Assets.csproj" />
   <Project Path="RvB.EC.Shared/RvB.EC.Shared.csproj" />
