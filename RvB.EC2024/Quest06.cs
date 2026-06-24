@@ -45,22 +45,6 @@ public class Quest06 : Quest {
     }
 
     private static Graph<string> CreateGraph(PuzzleInput input) {
-        var graph = new Graph<string>(GraphType.Directed);
-        foreach (var line in input.GetLines()) {
-            foreach (var vertex in line.SplitAny(":,")) {
-                graph.AddVertex(vertex.ToString());
-            }
-        }
-        foreach (var line in input.GetLines()) {
-            var (from, rest) = line.Split(':');
-            var fromStr = from.ToString();
-            foreach (var to in rest.Split(',')) {
-                var toStr = to.ToString();
-                if (fromStr != toStr) {
-                    graph.AddEdge(fromStr, toStr);
-                }
-            }
-        }
-        return graph;
+        return Graph<string>.FromAdjacencyList(input.GetLines().Select(l => { var (from, rest) = l.Split(':'); return (from.ToString(), rest.Split(',').Select(t => t.ToString()).ToArray()); }).ToArray(), allowSelfEdges: true);
     }
 }
