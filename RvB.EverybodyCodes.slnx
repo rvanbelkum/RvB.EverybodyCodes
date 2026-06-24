@@ -1,8 +1,11 @@
 <Solution>
   <Folder Name="/Common/">
-    <Project Path="../RvB.Common/RvB.CommandLine/RvB.CommandLine.csproj" />
-    <Project Path="../RvB.Common/RvB.Grids/RvB.Grids.csproj" />
-    <Project Path="../RvB.Common/RvB.Linq/RvB.Linq.csproj" />
+    <Project Path="../RvB.Collections/RvB.Collections.csproj" />
+    <Project Path="../RvB.CommandLine/RvB.CommandLine.csproj" />
+    <Project Path="../RvB.Graphs/RvB.Graphs.csproj" />
+    <Project Path="../RvB.Grids/RvB.Grids.csproj" />
+    <Project Path="../RvB.Linq/RvB.Linq.csproj" />
+    <Project Path="../RvB.Common/RvB.Spans/RvB.Spans.csproj" />
     <Project Path="../RvB.Common/RvB.Utils/RvB.Utils.csproj" />
   </Folder>
   <Project Path="../RvB.AoC.Assets/RvB.AoC.Assets.csproj" />
