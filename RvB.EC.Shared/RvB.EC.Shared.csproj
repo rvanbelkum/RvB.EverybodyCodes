@@ -12,7 +12,6 @@
 		<ProjectReference Include="..\..\RvB.Graphs\RvB.Graphs.csproj" />
 		<ProjectReference Include="..\..\RvB.Grids\RvB.Grids.csproj" />
 		<ProjectReference Include="..\..\RvB.Linq\RvB.Linq.csproj" />
-		<ProjectReference Include="..\..\RvB.Common\RvB.Utils\RvB.Utils.csproj" />
 	</ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿using static RvB.Utils.Display;
+﻿using static RvB.EC.Shared.Display;
 using static System.Console;
 
 namespace RvB.EC.Shared;
