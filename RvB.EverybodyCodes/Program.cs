@@ -1,7 +1,7 @@
 ﻿#pragma warning disable IDE0005
 global using System.Diagnostics;
 global using RvB.EC.Shared;
-global using static RvB.Utils.Display;
+global using static RvB.EC.Shared.Display;
 global using static System.Console;
 #pragma warning restore IDE0005
 
