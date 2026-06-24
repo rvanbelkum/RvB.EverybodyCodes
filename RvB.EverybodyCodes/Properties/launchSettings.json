@@ -4,6 +4,10 @@
       "commandName": "Project",
       "commandLineArgs": "-l"
     },
+    "Latest-Verify": {
+      "commandName": "Project",
+      "commandLineArgs": "-l -w"
+    },
     "All-Verify": {
       "commandName": "Project",
       "commandLineArgs": "-w -b 3"
