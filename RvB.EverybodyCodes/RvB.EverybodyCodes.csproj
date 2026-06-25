@@ -8,7 +8,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\RvB.CommandLine\RvB.CommandLine.csproj" />
+		<PackageReference Include="RvB.CommandLine" Version="1.0.0" />
 		<ProjectReference Include="..\..\RvB.Puzzles.Shared\RvB.Puzzles.Shared.csproj" />
 		<ProjectReference Include="..\RvB.EC2024\RvB.EC2024.csproj" />
 	</ItemGroup>

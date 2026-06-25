@@ -17,10 +17,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\RvB.Collections\RvB.Collections.csproj" />
-		<ProjectReference Include="..\..\RvB.Graphs\RvB.Graphs.csproj" />
-		<ProjectReference Include="..\..\RvB.Grids\RvB.Grids.csproj" />
-		<ProjectReference Include="..\..\RvB.Linq\RvB.Linq.csproj" />
+		<PackageReference Include="RvB.Collections" Version="1.0.0" />
+		<PackageReference Include="RvB.Grids" Version="1.0.0" />
+		<PackageReference Include="RvB.Graphs" Version="1.0.0" />
+		<PackageReference Include="RvB.Linq" Version="1.0.1" />
 		<ProjectReference Include="..\..\RvB.Puzzles.Shared\RvB.Puzzles.Shared.csproj" />
 	</ItemGroup>
 </Project>
