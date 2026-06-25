@@ -11,7 +11,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Include="..\..\RvB.AoC.Assets\EC2024\*.*">
+		<None Include="..\..\RvB.Puzzles.Assets\EC2024\*.*">
 			<Link>Assets\%(FileName)%(Extension)</Link>
 		</None>
 	</ItemGroup>
