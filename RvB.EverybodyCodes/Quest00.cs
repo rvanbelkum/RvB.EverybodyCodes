@@ -1,4 +1,4 @@
-﻿using RvB.EC.Shared;
+﻿using RvB.Puzzles.Shared;
 namespace RvB.EC2024;
 
 public class Quest00 : Quest {

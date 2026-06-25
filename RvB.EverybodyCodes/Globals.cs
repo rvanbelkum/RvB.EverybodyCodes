@@ -1,5 +1,5 @@
 ﻿#pragma warning disable IDE0005
-global using RvB.EC.Shared;
+global using RvB.Puzzles.Shared;
 global using RvB.Collections;
 global using RvB.Linq;
 global using RvB.Graphs;

@@ -9,8 +9,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\RvB.CommandLine\RvB.CommandLine.csproj" />
-		<ProjectReference Include="..\RvB.EC.Shared\RvB.EC.Shared.csproj" />
-		<ProjectReference Include="..\..\RvB.Common\RvB.Utils\RvB.Utils.csproj" />
+		<ProjectReference Include="..\..\RvB.Puzzles.Shared\RvB.Puzzles.Shared.csproj" />
 		<ProjectReference Include="..\RvB.EC2024\RvB.EC2024.csproj" />
 	</ItemGroup>
 

@@ -5,11 +5,10 @@
     <Project Path="../RvB.Graphs/RvB.Graphs.csproj" />
     <Project Path="../RvB.Grids/RvB.Grids.csproj" />
     <Project Path="../RvB.Linq/RvB.Linq.csproj" />
-    <Project Path="../RvB.Common/RvB.Utils/RvB.Utils.csproj" />
     <Project Path="../RvB.Trees/RvB.Trees.csproj" />
   </Folder>
-  <Project Path="../RvB.AoC.Assets/RvB.AoC.Assets.csproj" />
-  <Project Path="RvB.EC.Shared/RvB.EC.Shared.csproj" />
+  <Project Path="../RvB.Puzzles.Assets/RvB.Puzzles.Assets.csproj" />
+  <Project Path="../RvB.Puzzles.Shared/RvB.Puzzles.Shared.csproj" />
   <Project Path="RvB.EC2024/RvB.EC2024.csproj" />
   <Project Path="RvB.EverybodyCodes/RvB.EverybodyCodes.csproj" />
 </Solution>

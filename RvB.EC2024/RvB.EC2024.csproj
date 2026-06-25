@@ -7,6 +7,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Compile Include="..\RvB.EverybodyCodes\Globals.cs" Link="Globals.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<None Include="..\..\RvB.AoC.Assets\EC2024\*.*">
 			<Link>Assets\%(FileName)%(Extension)</Link>
 		</None>
@@ -17,6 +21,6 @@
 		<ProjectReference Include="..\..\RvB.Graphs\RvB.Graphs.csproj" />
 		<ProjectReference Include="..\..\RvB.Grids\RvB.Grids.csproj" />
 		<ProjectReference Include="..\..\RvB.Linq\RvB.Linq.csproj" />
-		<ProjectReference Include="..\RvB.EC.Shared\RvB.EC.Shared.csproj" />
+		<ProjectReference Include="..\..\RvB.Puzzles.Shared\RvB.Puzzles.Shared.csproj" />
 	</ItemGroup>
 </Project>

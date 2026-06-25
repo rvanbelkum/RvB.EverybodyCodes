@@ -1,15 +1,14 @@
 ﻿#pragma warning disable IDE0005
 global using System.Diagnostics;
-global using RvB.EC.Shared;
-global using static RvB.EC.Shared.Display;
+global using RvB.Puzzles.Shared;
+global using static RvB.Puzzles.Shared.Display;
 global using static System.Console;
 #pragma warning restore IDE0005
 
 using System.Reflection;
 using RvB.CommandLine;
-using RvB.Utils;
 
-namespace RvB.AoC;
+namespace RvB.EverybodyCodes;
 
 internal class Program {
     private static HandleOutput s_handleOutput = HandleOutput.Save;
@@ -58,7 +57,7 @@ internal class Program {
     static long?[] RunQuest(int year, Type questClass, bool microSeconds, int benchmark, List<string> validationErrors) {
         var timings = new long?[3];
         if (questClass is not null) {
-            var assetsPath = Path.GetFullPath($@"..\..\..\..\..\RvB.AoC.Assets\EC{year}\");
+            var assetsPath = Path.GetFullPath($@"..\..\..\..\..\RvB.Puzzles.Assets\EC{year}\");
             var inputFileName = Path.Combine(assetsPath, $"{questClass.Name}.txt");
 
             PuzzleInput input;
