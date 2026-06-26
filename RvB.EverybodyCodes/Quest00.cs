@@ -1,5 +1,4 @@
-﻿using RvB.Puzzles.Shared;
-namespace RvB.EC2024;
+﻿namespace RvB.EC2024;
 
 public class Quest00 : Quest {
     public override object? Part1(PuzzleInput input) {
