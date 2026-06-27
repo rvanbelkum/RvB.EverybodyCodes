@@ -17,7 +17,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="RvB.Collections" Version="1.0.0" />
+		<PackageReference Include="RvB.Collections" Version="1.0.2" />
 		<PackageReference Include="RvB.Grids" Version="1.0.0" />
 		<PackageReference Include="RvB.Graphs" Version="1.0.0" />
 		<PackageReference Include="RvB.Linq" Version="1.0.1" />

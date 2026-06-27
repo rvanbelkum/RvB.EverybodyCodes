@@ -84,11 +84,13 @@ public class Quest07 : Quest {
         var rivalScore = GetActionPlanScore(actions);
 
         var winCount = 0;
-        foreach (var perm in Permutations.GetUniquePermutations("+++++---===")) {
+        var count = 0;
+        foreach (var perm in "+++++---===".EnumerateUniquePermutations()) {
             var score = GetActionPlanScore(perm);
             if (score > rivalScore) {
                 winCount += 1;
             }
+            count += 1;
         }
         return winCount;
 
